@@ -3,6 +3,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import NavBar from "../components/NavBar";
+import Disconnected from "../components/Disconnected";
 
 const Home: NextPage = () => {
   return (
@@ -25,6 +26,7 @@ const Home: NextPage = () => {
           <Spacer />
           <Center>
             {/* If connected, the second view, otherwise the first */}
+            <Disconnected />
           </Center>
           <Spacer />
 
