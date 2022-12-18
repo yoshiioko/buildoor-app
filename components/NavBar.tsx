@@ -19,3 +19,5 @@ const NavBar: FC = () => {
     </HStack>
   );
 };
+
+export default NavBar;
