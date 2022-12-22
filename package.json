@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "create-bld-token": "ts-node ./src/tokens/bld/index.ts"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.14",
@@ -33,5 +34,8 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.9.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
   }
 }
