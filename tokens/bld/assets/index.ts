@@ -95,11 +95,25 @@ async function createBldToken(
     transaction,
     [payer]
   );
+
+  // 9. Write metadata file to local disk
+  fs.writeFileSync(
+    "tokens/bld/cache.json",
+    JSON.stringify({
+      mint: tokenMint.toBase58(),
+      imageUri: imageUri,
+      metadataUri: uri,
+      tokenMetadata: metadataPda.toBase58(),
+      metadataTransaction: transactionSignature,
+    })
+  );
 }
 
 async function main() {
   const connection = new web3.Connection(web3.clusterApiUrl("devnet"));
   const payer = await initializeKeypair(connection);
+
+  await createBldToken(connection, payer);
 }
 
 main()
