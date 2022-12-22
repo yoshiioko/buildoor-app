@@ -1,0 +1,32 @@
+{
+  "name": "Kool Kids #1",
+  "symbol": "KOOL",
+  "description": "The Koolest Kids on the Solana Blockchain.",
+  "image": "1.png",
+  "attributes": [
+    {
+      "trait_type": "hair",
+      "value": "horny nerd"
+    },
+    {
+      "trait_type": "eyes",
+      "value": "rainbows"
+    },
+    {
+      "trait_type": "nose",
+      "value": "pill"
+    },
+    {
+      "trait_type": "mouth",
+      "value": "happy to see U"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "1.png",
+        "type": "image/png"
+      }
+    ]
+  }
+}

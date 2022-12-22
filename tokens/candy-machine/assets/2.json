@@ -1,0 +1,32 @@
+{
+  "name": "Kool Kids #2",
+  "symbol": "KOOL",
+  "description": "The Koolest Kids on the Solana Blockchain.",
+  "image": "2.png",
+  "attributes": [
+    {
+      "trait_type": "hair",
+      "value": "girly"
+    },
+    {
+      "trait_type": "eyes",
+      "value": "4 eyes"
+    },
+    {
+      "trait_type": "nose",
+      "value": "basic"
+    },
+    {
+      "trait_type": "mouth",
+      "value": "wide"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "2.png",
+        "type": "image/png"
+      }
+    ]
+  }
+}
