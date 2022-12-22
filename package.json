@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "create-bld-token": "ts-node ./src/tokens/bld/index.ts"
+    "create-bld-token": "ts-node ./tokens/bld/index.ts"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.14",
