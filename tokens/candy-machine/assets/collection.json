@@ -1,0 +1,15 @@
+{
+  "name": "The Kool Kids",
+  "symbol": "KOOL",
+  "description": "The Koolest Kids on the Solana Blockchain.",
+  "image": "collection.png",
+  "attributes": [],
+  "properties": {
+    "files": [
+      {
+        "uri": "collection.png",
+        "type": "image/png"
+      }
+    ]
+  }
+}

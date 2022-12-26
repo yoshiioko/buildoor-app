@@ -1,0 +1,57 @@
+{
+  "program": {
+    "candyMachine": "DfMpfTu8ixaR4ei9bUEZg7dyjPfutn8hARjTXYXnv7Sg",
+    "candyMachineCreator": "BDH1y4CjvFaNQuJoE37v7j6P5PmCstWiN7iHusUcvpbv",
+    "collectionMint": "DXQPoP7rV5RvhH1H2WujpvDjqouQJS5EPr9aWngqAXMf"
+  },
+  "items": {
+    "-1": {
+      "name": "The Kool Kids",
+      "image_hash": "3179dc0ea6e67e8331b95145a5b6b8c8ea7164c71b4d8aaa3a83bf80812e591c",
+      "image_link": "https://arweave.net/O5YxFFYo6TtVjESCdfMImsV3dMgGJvI0Gpf_Uj_c1hE?ext=png",
+      "metadata_hash": "feb0e90d1090b34d903605d648a1ab86249ac9aa1801c8517093b31a4c9c0279",
+      "metadata_link": "https://arweave.net/JNNZkxX98kjX7utd6y0IEV60ZX_FT7Kls6p2_AsAsio",
+      "onChain": true
+    },
+    "0": {
+      "name": "Kool Kids #0",
+      "image_hash": "3179dc0ea6e67e8331b95145a5b6b8c8ea7164c71b4d8aaa3a83bf80812e591c",
+      "image_link": "https://arweave.net/Mdge5Yw1XVuytpCFTmKvOXCo7YKU12pvR47KnLGrAvQ?ext=png",
+      "metadata_hash": "1cebafc39bc63774ccff85ae96c211aaf0ba3c5dbce7a1c5952ddbd122090192",
+      "metadata_link": "https://arweave.net/Nk8VSz9m9M1m3sFZTP3NKoYM_hakXlnAy4wNNTNHq9I",
+      "onChain": true
+    },
+    "1": {
+      "name": "Kool Kids #1",
+      "image_hash": "59b9166c9704dc78b1010d895a943e4014f24629a3cd3843c783a792a434ed4a",
+      "image_link": "https://arweave.net/yzLRRaySaZAkb787Y9uKTX-dciFHZ7FlzpSpmnHu30Y?ext=png",
+      "metadata_hash": "36955d3c235b172e64f2e525f4400a4e555fd1982b1b4488f4e70ac25c4abba8",
+      "metadata_link": "https://arweave.net/XNL5lQSXv-w_FVnsJ2gbJFhOOk2pqE156HJ3S33JLHg",
+      "onChain": true
+    },
+    "2": {
+      "name": "Kool Kids #2",
+      "image_hash": "9d2362389a1d2e5d91b3e1fed4771251c9647614444a98df5f32a5dd84acb8e8",
+      "image_link": "https://arweave.net/eijsX-YqR_nmt3RnHKRQZNgkS9w4SZn9WkHla7e6yM0?ext=png",
+      "metadata_hash": "fbd5a04f7008b986bf1901fb716aa09e02ade1b3733fed9209020a092d0be7f1",
+      "metadata_link": "https://arweave.net/hnohOKZ5MJCMC7cQjSvKUvY6CHTA81wE497c1uowVgU",
+      "onChain": true
+    },
+    "3": {
+      "name": "Kool Kids #3",
+      "image_hash": "80941660812d943b4cdb6ab5ee104f94dc5a7d9baacf6d91089a762dbbd26357",
+      "image_link": "https://arweave.net/xgZN4uc0xzRCXyiYvPR44Cuj9MWzkf29inh8zxf9m18?ext=png",
+      "metadata_hash": "650a5fed5ad4dcf8d9a0d11c5a8672fe14aac511da6490a6d3a3cf167fecb4c5",
+      "metadata_link": "https://arweave.net/w1C9-ny-oL0gfTE_71W73IplNwBx1yRrCBCsGM21Jts",
+      "onChain": true
+    },
+    "4": {
+      "name": "Kool Kids #4",
+      "image_hash": "35a6c4c815910ca59f70f0314cd7f3e7a4c5938c468afd051670102324454d8b",
+      "image_link": "https://arweave.net/Kfwvl8_1b8vYrs6W9naOeUIYcx_j_Unagmymafx7uDY?ext=png",
+      "metadata_hash": "1f84697ac458e288639673363ead91a10637ea8767a1836321b02f9b26a5dd2e",
+      "metadata_link": "https://arweave.net/3GGRAMZqAsIBoQJpFGlebp0tFnrdV0iwEpF2lK4Xjg0",
+      "onChain": true
+    }
+  }
+}
