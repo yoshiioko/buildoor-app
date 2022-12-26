@@ -1,6 +1,8 @@
-import { FC, ReactNode } from "react";
+import { FC, ReactNode, useMemo } from "react";
 import {
   ConnectionProvider,
+  useLocalStorage,
+  useWallet,
   WalletProvider,
 } from "@solana/wallet-adapter-react";
 import { WalletModalProvider } from "@solana/wallet-adapter-react-ui";
@@ -9,17 +11,16 @@ import {
   PhantomWalletAdapter,
   SolflareWalletAdapter,
 } from "@solana/wallet-adapter-wallets";
-import { useMemo } from "react";
 require("@solana/wallet-adapter-react-ui/styles.css");
 
 const WalletContextProvider: FC<{ children: ReactNode }> = ({ children }) => {
   const url = useMemo(() => clusterApiUrl("devnet"), []);
-  const phantom = new PhantomWalletAdapter();
-  const solflare = new SolflareWalletAdapter();
+  const phantom = useMemo(() => new PhantomWalletAdapter(), []);
+  const solflare = useMemo(() => new SolflareWalletAdapter(), []);
 
   return (
     <ConnectionProvider endpoint={url}>
-      <WalletProvider wallets={[phantom, solflare]}>
+      <WalletProvider wallets={[phantom, solflare]} autoConnect={true}>
         <WalletModalProvider>{children}</WalletModalProvider>
       </WalletProvider>
     </ConnectionProvider>
